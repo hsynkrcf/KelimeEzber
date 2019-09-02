@@ -1,0 +1,250 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CFC57E23-5677-4E7B-AB13-62C992992F9E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KelimeEzber.WinForm</RootNamespace>
+    <AssemblyName>KelimeEzber.WinForm</AssemblyName>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\LoginHelper.cs" />
+    <Compile Include="Classes\PaymentHelper.cs" />
+    <Compile Include="Classes\RefreshEvent.cs" />
+    <Compile Include="frmAddWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddWord.Designer.cs">
+      <DependentUpon>frmAddWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdmin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdmin.Designer.cs">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAllMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAllMember.Designer.cs">
+      <DependentUpon>frmAllMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmExerciseScene.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmExerciseScene.Designer.cs">
+      <DependentUpon>frmExerciseScene.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmChangePassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmChangePassword.Designer.cs">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMain.Designer.cs">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNewPool.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNewPool.Designer.cs">
+      <DependentUpon>frmNewPool.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPassiveMember.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPassiveMember.Designer.cs">
+      <DependentUpon>frmPassiveMember.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPoolList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPoolList.Designer.cs">
+      <DependentUpon>frmPoolList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProfileSettings.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProfileSettings.Designer.cs">
+      <DependentUpon>frmProfileSettings.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRegister.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRegister.Designer.cs">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPayment.Designer.cs">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmReports.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmReports.Designer.cs">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmShowWords.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmShowWords.designer.cs">
+      <DependentUpon>frmShowWords.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmTransferWord.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmTransferWord.Designer.cs">
+      <DependentUpon>frmTransferWord.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmAddWord.resx">
+      <DependentUpon>frmAddWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdmin.resx">
+      <DependentUpon>frmAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAllMember.resx">
+      <DependentUpon>frmAllMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmChangePassword.resx">
+      <DependentUpon>frmChangePassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmExerciseScene.resx">
+      <DependentUpon>frmExerciseScene.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMain.resx">
+      <DependentUpon>frmMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNewPool.resx">
+      <DependentUpon>frmNewPool.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPassiveMember.resx">
+      <DependentUpon>frmPassiveMember.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPoolList.resx">
+      <DependentUpon>frmPoolList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProfileSettings.resx">
+      <DependentUpon>frmProfileSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRegister.resx">
+      <DependentUpon>frmRegister.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPayment.resx">
+      <DependentUpon>frmPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmReports.resx">
+      <DependentUpon>frmReports.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmShowWords.resx">
+      <DependentUpon>frmShowWords.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmTransferWord.resx">
+      <DependentUpon>frmTransferWord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\KelimeEzber.BLL\KelimeEzber.BLL.csproj">
+      <Project>{B6D982AE-0CB4-45A5-A407-0584556BD81F}</Project>
+      <Name>KelimeEzber.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KelimeEzber.CustomException\KelimeEzber.CustomException.csproj">
+      <Project>{f8500a79-a611-42ef-a634-89e722e47fe9}</Project>
+      <Name>KelimeEzber.CustomException</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KelimeEzber.DTO\KelimeEzber.DTO.csproj">
+      <Project>{5458eede-b950-410c-b5c1-74c728dd680e}</Project>
+      <Name>KelimeEzber.DTO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\KelimeEzber.Entities\KelimeEzber.Entities.csproj">
+      <Project>{14731e97-7fc8-4ba0-93cd-e280081bd377}</Project>
+      <Name>KelimeEzber.Entities</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\true.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wrong.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

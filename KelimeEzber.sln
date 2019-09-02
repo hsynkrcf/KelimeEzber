@@ -1,0 +1,79 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.Entities", "KelimeEzber.Entities\KelimeEzber.Entities.csproj", "{14731E97-7FC8-4BA0-93CD-E280081BD377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.DAL", "KelimeEzber.DAL\KelimeEzber.DAL.csproj", "{E0426EC2-A9C5-421E-B025-15B4A288476E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.BLL", "KelimeEzber.BLL\KelimeEzber.BLL.csproj", "{B6D982AE-0CB4-45A5-A407-0584556BD81F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.CustomException", "KelimeEzber.CustomException\KelimeEzber.CustomException.csproj", "{F8500A79-A611-42EF-A634-89E722E47FE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.WinForm", "KelimeEzber.WinForm\KelimeEzber.WinForm.csproj", "{CFC57E23-5677-4E7B-AB13-62C992992F9E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KelimeEzber.DTO", "KelimeEzber.DTO\KelimeEzber.DTO.csproj", "{5458EEDE-B950-410C-B5C1-74C728DD680E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14731E97-7FC8-4BA0-93CD-E280081BD377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14731E97-7FC8-4BA0-93CD-E280081BD377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14731E97-7FC8-4BA0-93CD-E280081BD377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14731E97-7FC8-4BA0-93CD-E280081BD377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0426EC2-A9C5-421E-B025-15B4A288476E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0426EC2-A9C5-421E-B025-15B4A288476E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0426EC2-A9C5-421E-B025-15B4A288476E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0426EC2-A9C5-421E-B025-15B4A288476E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6D982AE-0CB4-45A5-A407-0584556BD81F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6D982AE-0CB4-45A5-A407-0584556BD81F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6D982AE-0CB4-45A5-A407-0584556BD81F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6D982AE-0CB4-45A5-A407-0584556BD81F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8500A79-A611-42EF-A634-89E722E47FE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8500A79-A611-42EF-A634-89E722E47FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8500A79-A611-42EF-A634-89E722E47FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8500A79-A611-42EF-A634-89E722E47FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFC57E23-5677-4E7B-AB13-62C992992F9E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFC57E23-5677-4E7B-AB13-62C992992F9E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFC57E23-5677-4E7B-AB13-62C992992F9E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFC57E23-5677-4E7B-AB13-62C992992F9E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5458EEDE-B950-410C-B5C1-74C728DD680E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5458EEDE-B950-410C-B5C1-74C728DD680E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5458EEDE-B950-410C-B5C1-74C728DD680E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5458EEDE-B950-410C-B5C1-74C728DD680E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BDC01800-4A39-4050-9E08-A7B89B1AF523}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://orkun0278.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = KelimeEzber.Entities\\KelimeEzber.Entities.csproj
+		SccProjectName1 = KelimeEzber.Entities
+		SccLocalPath1 = KelimeEzber.Entities
+		SccProjectUniqueName2 = KelimeEzber.DAL\\KelimeEzber.DAL.csproj
+		SccProjectName2 = KelimeEzber.DAL
+		SccLocalPath2 = KelimeEzber.DAL
+		SccProjectUniqueName3 = KelimeEzber.BLL\\KelimeEzber.BLL.csproj
+		SccProjectName3 = KelimeEzber.BLL
+		SccLocalPath3 = KelimeEzber.BLL
+		SccProjectUniqueName4 = KelimeEzber.CustomException\\KelimeEzber.CustomException.csproj
+		SccProjectName4 = KelimeEzber.CustomException
+		SccLocalPath4 = KelimeEzber.CustomException
+		SccProjectUniqueName5 = KelimeEzber.WinForm\\KelimeEzber.WinForm.csproj
+		SccProjectName5 = KelimeEzber.WinForm
+		SccLocalPath5 = KelimeEzber.WinForm
+		SccProjectUniqueName6 = KelimeEzber.DTO\\KelimeEzber.DTO.csproj
+		SccProjectName6 = KelimeEzber.DTO
+		SccLocalPath6 = KelimeEzber.DTO
+	EndGlobalSection
+EndGlobal
