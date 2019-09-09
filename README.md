@@ -36,4 +36,16 @@
 
 **Premium Üyelik için ödeme ekranı, sistem tüm ödemeleri veritabanında detaylı bir şekilde tutar ve ödeme yapan üyeyi premiuma çevirir.**
 
-<img src="https://www.resimag.com/p1/66bb3b183c2.png" alt="Register" width="500" height="350" />
+<img src="https://www.resimag.com/p1/66bb3b183c2.png" alt="Payment" width="500" height="350" />
+
+**Kullanıcı alıştırma yapmak için havuz oluşturur. Alıştırma tipine göre program kelimeleri sıralar ve çalışma havuzu oluşturulur.**
+
+<img src="https://www.resimag.com/p1/e1b339c0aa6.png" alt="CreatePool" width="800" height="400" />
+
+**Kullanıcı alıştırmak yapmak istediği havuzunu seçer ve eğitime başlar.**
+
+<img src="https://www.resimag.com/p1/1e9397b8178.png" alt="SelectPool" width="500" height="400" />
+
+**Kullanıcı bir havuzundan diğer havuza kelimelerini transfer edebilir. Öğrendiği kelimeleri çıkartabilir.**
+
+<img src="https://www.resimag.com/p1/26449911423.png" alt="TransferWord" width="650" height="400" />
