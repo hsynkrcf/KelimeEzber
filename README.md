@@ -46,6 +46,14 @@
 
 <img src="https://www.resimag.com/p1/1e9397b8178.png" alt="SelectPool" width="500" height="400" />
 
+**Kullanıcı eğitime başlar, program anlık kontrol yapıp doğru veya yanlış olduğunu belirtir. Kullanıcı eğitim bittiğinde sonuçlarını görebilir.**
+
+<img src="https://www.resimag.com/p1/47c001d1bcf.png" alt="Practice" width="650" height="400" />
+
 **Kullanıcı bir havuzundan diğer havuza kelimelerini transfer edebilir. Öğrendiği kelimeleri çıkartabilir.**
 
 <img src="https://www.resimag.com/p1/26449911423.png" alt="TransferWord" width="650" height="400" />
+
+**Son olarak kullanıcı profil ayarlarını değiştirebilir, şifresini düzenleyebilir.**
+
+<img src="https://www.resimag.com/p1/6fb9b86aeee.png" alt="Settings" width="400" height="400" />
